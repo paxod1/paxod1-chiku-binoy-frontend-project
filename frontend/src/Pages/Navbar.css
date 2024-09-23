@@ -1,0 +1,128 @@
+.navbar-main {
+    height: 8vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2vw;
+    overflow: hidden;
+}
+
+.wefologo-image {
+    margin-left: 4vw;
+    height: 7vh;
+    margin-top: 3vh;
+    margin-right: 4vw;
+}
+
+.navbar-options {
+    margin-top: 0.2vw;
+    margin-right: 10%;
+    height: 6vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid white;
+    color: white;
+    border-radius: 25px;
+    width: 48%;
+}
+
+.menuItems {
+    margin-left: 1vh;
+    margin-right: 1vh;
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.menuItems:hover {
+    background-color: rgb(66, 65, 65);
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.start-project-button {
+    background-color: rgb(61, 62, 133);
+    color: rgb(246, 245, 245);
+    padding: 1vh 1vh;
+    border-radius: 35px;
+    cursor: pointer;
+    border: none;
+    font-size: 1.5vw;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    gap: 0.8vw;
+    margin-left: auto;
+    margin-right: 0;
+}
+
+.start-project-arrowIcon {
+    background-color: rgb(61, 62, 133);
+    color: rgb(246, 245, 245);
+    border-radius: 10px;
+    font-size: 1.8vw;
+}
+
+
+@media (max-width: 1200px) {
+
+    .wefologo-image {
+        height: 6.5vh;
+    }
+
+    .navbar-options {
+        width: 60%;
+    }
+
+    .menuItems {
+        margin-left: .5vh;
+        margin-right: .5vh;
+    }
+
+    .start-project-button {
+        padding: 1vh 1vh;
+        width: 15%;
+        border-radius: 35px;
+        cursor: pointer;
+        font-size: 1.2vw;
+        height: 4vh;
+        display: flex;
+        align-items: center;
+        gap: 0.8vw;
+        margin-left: auto;
+        margin-right: -5%;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar-main {
+        height: 8vh;
+    }
+
+    .wefologo-image {
+        height: 3vh;
+        margin-top: 0vh;
+        margin-left: -1vw;
+    }
+
+    .navbar-options {
+        width: 100%;
+        height: 3vh;
+    }
+
+    .menuItems {
+        font-size: .5rem;
+        width: 80%;
+
+    }
+
+    .start-project-button {
+        width: 50%;
+        font-size: 1vh;
+        margin-right: 0%;
+
+    }
+
+    .start-project-arrowIcon {
+        font-size: -4vh;
+    }
+}

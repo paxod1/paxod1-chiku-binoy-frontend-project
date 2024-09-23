@@ -1,0 +1,127 @@
+.sixth-section-main-div {
+    width: 100%;
+    height: auto;
+    background-color: black;
+    overflow: hidden;
+    color: white;
+    background-image: url('../Images/Ellipse 47 (2).png'); 
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+.sixth-section-main-inner-div {
+    width: 100%;
+    margin-bottom: 5%;
+}
+
+.sixth-section-dot-heading {
+    margin-left: 7vh;
+    width: 30%;
+    height: auto;
+}
+
+.sixth-section-right-side {
+    float: right;
+    font-size: 220%;
+    margin-right: 8%;
+    width: 50%;
+}
+
+.sixth-section-avator-right-side {
+    display: flex;
+    align-items: center;
+    margin-top: 4%;
+    font-size: 70%;
+}
+
+.sixth-section-avatar-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 3%;
+}
+
+.sixth-section-avator-text {
+    font-size: 110%;
+    display: flex;
+    flex-direction: column;
+}
+
+.sixth-section-avator-right-side-arrow {
+    margin-top: 6%;
+    margin-bottom: 5%;
+}
+
+
+@media (max-width: 1200px) {
+    .sixth-section-dot-heading {
+        margin-left: 5vh; 
+        width: 40%; 
+    }
+
+    .sixth-section-right-side {
+        font-size: 180%; 
+        margin-right: 5%;
+        width: 60%;
+    }
+}
+
+@media (max-width: 992px) {
+    .sixth-section-dot-heading {
+        margin-left: 3vh; 
+        width: 50%; 
+    }
+
+    .sixth-section-right-side {
+        font-size: 160%; 
+        margin-right: 3%; 
+        width: 70%; 
+    }
+
+    .sixth-section-avator-right-side {
+        font-size: 60%; 
+    }
+}
+
+@media (max-width: 768px) {
+    .sixth-section-dot-heading {
+        margin-left: 2vh; 
+        width: 70%; 
+    }
+
+    .sixth-section-right-side {
+        font-size: 140%; 
+        margin-right: 2%; 
+        width: 100%; 
+        float: none; 
+        text-align: center;
+    }
+
+    .sixth-section-avator-right-side {
+        flex-direction: column; 
+
+    }
+}
+
+@media (max-width: 576px) {
+    .sixth-section-dot-heading {
+        margin-left: 1vh; 
+        width: 90%; 
+    }
+
+    .sixth-section-right-side {
+        font-size: 120%;
+        margin-right: 1%; 
+        width: 100%;
+    }
+
+    .sixth-section-avator-right-side {
+        font-size: 50%; 
+    }
+
+    .sixth-section-avatar-img {
+        width: 40px; 
+        height: 40px; 
+    }
+}

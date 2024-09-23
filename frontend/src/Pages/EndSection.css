@@ -1,0 +1,159 @@
+.end-section-first-div {
+    height: 90vh;
+    color: white;
+    background-color: black;
+    width: 100%;
+    overflow: hidden;
+}
+
+.end-section-main-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    padding: 5%;
+}
+
+.end-section-left-inner-div {
+    width: 40%;
+    height: auto;
+    margin-left: 2%;
+    margin-top: 0;
+}
+
+.end-section-left-side-bigfont {
+    font-size: 3vw; 
+}
+
+.logos-end {
+    margin-top: 3%;
+}
+
+.one-logos-end {
+    margin-right: 2%;
+}
+
+.end-section-contact-details {
+    width: 100%;
+    margin-top: 4%;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    font-size: 1.2vw;
+    margin-bottom: 2%;
+}
+
+.phone-logo {
+    margin-right: 10px;
+    width: 3vw;
+    height: auto;
+}
+
+.end-section-right-inner-div {
+    width: 60%; 
+    margin-top: 1%;
+    font-size: 1.2vw; 
+}
+
+.heading-name {
+    display: flex;
+    flex-direction: row;
+}
+
+.input-name, .input-email, .input-message {
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    border-bottom: 1px solid #595757;
+    outline: none;
+    color: #fff;
+    padding: 10px 0;
+    width: 80%; 
+    font-size: 1em; 
+}
+
+.input-fields {
+    margin-bottom: 3%;
+}
+
+.input-message {
+    padding-bottom: 90px;
+}
+
+.comment-button {
+    background-color: rgba(61, 62, 133, 0);
+    color: rgb(246, 245, 245);
+    padding: 10px 20px;
+    border-radius: 35px;
+    cursor: pointer;
+    border: 1px solid rgba(255, 255, 255, 0.521);
+    font-size: 1vw;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.comment-arrowIcon {
+    background-color: rgba(61, 62, 133, 0);
+    color: rgb(246, 245, 245);
+    border-radius: 10px;
+    font-size: 1.5vw;
+}
+
+.end-div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.end-div-line {
+    width: 90%;
+    border: 1px solid rgba(255, 255, 255, 0.326);
+    height: 0;
+}
+
+.down-section-text {
+    margin-top: 1%;
+}
+
+.down-section-bottons-right {
+    float: right;
+    display: flex;
+    flex-direction: row;
+}
+
+.down-button {
+    background-color: rgba(61, 62, 133, 0);
+    color: rgb(246, 245, 245);
+    padding: 10px 20px;
+    border-radius: 35px;
+    cursor: pointer;
+    border: none;
+    font-size: 1vw;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    margin-right: 1%;
+}
+
+
+@media (max-width: 750px) {
+    .end-section-first-div {
+        height: 65vh;
+    }
+    
+    .end-section-left-side-bigfont {
+        font-size: 2.5vw; 
+    }
+
+    .contact, .end-section-right-inner-div {
+        font-size: 1.8vw; 
+    }
+
+    .comment-button, .down-button {
+        font-size: 1.5vw;
+    }
+}
